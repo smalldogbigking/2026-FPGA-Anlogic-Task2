@@ -1,0 +1,16 @@
+{
+  "compiler_exit": 0,
+  "code": 18728,
+  "ro_data": 2768,
+  "rw_data": 32,
+  "zi_data": 6480,
+  "flash_limit": 65536,
+  "ram_limit": 20480,
+  "download_configuration_identical_to_original": true,
+  "flash_image_span": 21528,
+  "ram_total": 6512,
+  "hex_sha256": "9880a26d5fdcd4f107a2ed965e779e42434bf1b4f82d07c73ff2187bb9a2a331",
+  "built_local": "2026-10-28T23:23:28+0800",
+  "downloaded": false,
+  "hardware_tested": false
+}

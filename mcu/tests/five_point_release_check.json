@@ -1,0 +1,64 @@
+{
+  "checked_local": "2026-10-28T23:09:29.682780+08:00",
+  "map_points_cm": [
+    [
+      10,
+      10
+    ],
+    [
+      20,
+      10
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      5,
+      20
+    ],
+    [
+      25,
+      20
+    ]
+  ],
+  "gripper_open_us": 1000,
+  "gripper_close_us": 1500,
+  "runtime_files_changed": [
+    "Display/robot_display.c",
+    "Protocol/pick_config.h",
+    "Vision/pixel_map.c",
+    "Vision/pixel_map.h",
+    "Vision/robot_control.c",
+    "Vision/robot_control.h",
+    "Vision/vision_config.h"
+  ],
+  "source_hashes_verified": 36,
+  "model_unchanged": true,
+  "hex_sha256": "642e7f7bbc33553698a23d1fa08c1aa489ebfbd99b2db9b0a1ef978b8ccd8d0f",
+  "backup": "before_five_point_20261028_230147.zip",
+  "native": {
+    "native_pass": true,
+    "when": "2026-10-28T23:07:00+0800",
+    "evidence": "PASS 216624 checks, real calibrated model, fake PWM only; no serial/hardware access.",
+    "hardware_tested": false
+  },
+  "download_config": {
+    "download_configuration_identical": true,
+    "sections_compared": 14,
+    "pwm_pins_unchanged": [
+      "PA0",
+      "PA1",
+      "PA2",
+      "PA3",
+      "PA6",
+      "PA7"
+    ],
+    "pc_control_removed": true,
+    "uart_transmit_disabled": true,
+    "reference_sha256": "e2b92ac960ce10193f2b7c22760d78fd7e25753ebaac500fd3f1ef2a7faa413b",
+    "downloaded": false
+  },
+  "downloaded": false,
+  "hardware_tested": false
+}

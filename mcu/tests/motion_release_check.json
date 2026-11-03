@@ -1,0 +1,19 @@
+{
+  "checked_local": "2026-10-27T17:35:25.111953+08:00",
+  "runtime_files_changed": [
+    "App/board_config.h",
+    "Protocol/motion_profile.c",
+    "Protocol/pick_config.h",
+    "Protocol/pick_cycle.c",
+    "Protocol/pick_cycle.h",
+    "Vision/vision_config.h"
+  ],
+  "other_runtime_files_unchanged": 30,
+  "fpga_files_unchanged": 327,
+  "current_source_hashes_verified": 36,
+  "hex_sha256": "bef5515e10038cdc0739d7df7af5d53e70a7315844653604b044c848249ac753",
+  "backup": "Reference\\before_motion_tuning_20261027_173003.zip",
+  "backup_sha256": "86d7728fa67311245701c86705c6b36391936e376c0ca1bb73fcd9f278ed726b",
+  "downloaded": false,
+  "hardware_tested": false
+}

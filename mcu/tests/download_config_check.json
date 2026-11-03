@@ -1,0 +1,16 @@
+{
+  "download_configuration_identical": true,
+  "sections_compared": 14,
+  "pwm_pins_unchanged": [
+    "PA0",
+    "PA1",
+    "PA2",
+    "PA3",
+    "PA6",
+    "PA7"
+  ],
+  "pc_control_removed": true,
+  "uart_transmit_disabled": true,
+  "reference_sha256": "e2b92ac960ce10193f2b7c22760d78fd7e25753ebaac500fd3f1ef2a7faa413b",
+  "downloaded": false
+}

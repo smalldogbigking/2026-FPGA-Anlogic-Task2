@@ -1,0 +1,3 @@
+afc55855e65616caaa764f3f6e0fc6f2ae0775c7703ec27dbac9056d2034060a  Anlogic-Vision-v3.0.2.apk
+60cc0a70fd6530c2b12770ea9e2add320e8e2a819452f45d142b6154832bc8d3  latest_plus_v3_hdmi_capture.bit
+9880a26d5fdcd4f107a2ed965e779e42434bf1b4f82d07c73ff2187bb9a2a331  robot_arm_control.hex

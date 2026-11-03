@@ -1,0 +1,47 @@
+{
+  "checked_local": "2026-10-28T23:24:31.072588+08:00",
+  "runtime_changes": [
+    "Protocol/motion_profile.c",
+    "Protocol/pick_config.h",
+    "Protocol/pick_cycle.c",
+    "Protocol/pick_cycle.h",
+    "Vision/robot_control.c",
+    "Vision/vision_config.h"
+  ],
+  "source_hashes_verified": 36,
+  "calibrated_model_unchanged": true,
+  "claw_open_us": 1000,
+  "claw_closed_us": 1500,
+  "transfer_ch5_us": 2191,
+  "native": {
+    "native_pass": true,
+    "when": "2026-10-28T23:18:01+0800",
+    "evidence": "PASS 1667325 checks, real calibrated model, fake PWM only; no serial/hardware access.",
+    "hardware_tested": false
+  },
+  "simulated_batches": 496,
+  "simulated_picks": 1984,
+  "time_reduction_percent": 25.9,
+  "flash_bytes": 21528,
+  "ram_bytes": 6512,
+  "hex_sha256": "9880a26d5fdcd4f107a2ed965e779e42434bf1b4f82d07c73ff2187bb9a2a331",
+  "original_download_configuration": {
+    "download_configuration_identical": true,
+    "sections_compared": 14,
+    "pwm_pins_unchanged": [
+      "PA0",
+      "PA1",
+      "PA2",
+      "PA3",
+      "PA6",
+      "PA7"
+    ],
+    "pc_control_removed": true,
+    "uart_transmit_disabled": true,
+    "reference_sha256": "e2b92ac960ce10193f2b7c22760d78fd7e25753ebaac500fd3f1ef2a7faa413b",
+    "downloaded": false
+  },
+  "backup": "before_continuous_batch_20261028_231320.zip",
+  "downloaded": false,
+  "hardware_tested": false
+}

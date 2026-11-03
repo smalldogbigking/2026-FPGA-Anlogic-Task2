@@ -1,0 +1,7 @@
+Flask>=3.0,<4
+pyserial>=3.5,<4
+Pillow>=11,<13
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+imageio-ffmpeg>=0.6,<1
+waitress>=3,<4

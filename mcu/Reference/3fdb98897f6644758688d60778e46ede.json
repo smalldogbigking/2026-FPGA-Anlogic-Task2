@@ -1,0 +1,1719 @@
+{
+  "schema": 1,
+  "id": "3fdb98897f6644758688d60778e46ede",
+  "name": "桌面拟合31点＋空间姿态7个",
+  "revision": 7,
+  "catch_z": 0.0,
+  "workspace_size": [
+    50.0,
+    50.0
+  ],
+  "unit": "cm",
+  "period_us": 20000,
+  "limits_confirmed": true,
+  "limits": [
+    [
+      500,
+      3000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      500,
+      3000
+    ],
+    [
+      500,
+      3000
+    ]
+  ],
+  "channel_names": [
+    "夹爪开合",
+    "夹爪旋转（固定）",
+    "定位关节CH3",
+    "定位关节CH4",
+    "定位关节CH5",
+    "底座CH6"
+  ],
+  "max_rate_us_s": 600,
+  "gripper_open_us": 1000,
+  "gripper_close_us": 1600,
+  "points": [
+    {
+      "id": "30c7c928a2e24eecb69630a78551da58",
+      "name": "P1",
+      "xyz": [
+        15.0,
+        26.0,
+        0.0
+      ],
+      "pwm_us": [
+        1936,
+        1951,
+        926,
+        1692
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:37:06.262011+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        1936,
+        1951,
+        926,
+        1692
+      ],
+      "duty_percent": [
+        9.68,
+        9.755,
+        4.63,
+        8.46
+      ]
+    },
+    {
+      "id": "77cc0d5dacef4b7ca9dd4c9081fe1a52",
+      "name": "P2",
+      "xyz": [
+        15.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        1843,
+        1490,
+        1265,
+        1692
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:38:45.294037+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        1843,
+        1490,
+        1265,
+        1692
+      ],
+      "duty_percent": [
+        9.215,
+        7.45,
+        6.325,
+        8.46
+      ]
+    },
+    {
+      "id": "2a141186223f436ca40f480eb54c41e3",
+      "name": "P3",
+      "xyz": [
+        15.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        1675,
+        1368,
+        1417,
+        1692
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:43:09.625015+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        1675,
+        1368,
+        1417,
+        1692
+      ],
+      "duty_percent": [
+        8.375,
+        6.84,
+        7.085,
+        8.46
+      ]
+    },
+    {
+      "id": "97392547bb94476292b697670fae0d7f",
+      "name": "P4",
+      "xyz": [
+        15.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        1647,
+        1142,
+        1637,
+        1692
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:45:54.047016+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        1647,
+        1142,
+        1637,
+        1692
+      ],
+      "duty_percent": [
+        8.235,
+        5.71,
+        8.185,
+        8.46
+      ]
+    },
+    {
+      "id": "e41e5cd67b364f9fa27a96658bce25c7",
+      "name": "P5",
+      "xyz": [
+        10.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        2165,
+        758,
+        1696,
+        1816
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:55:38.455182+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        2165,
+        758,
+        1696,
+        1816
+      ],
+      "duty_percent": [
+        10.825,
+        3.79,
+        8.48,
+        9.08
+      ]
+    },
+    {
+      "id": "63201db0b7764610b9169b482a66478a",
+      "name": "P6",
+      "xyz": [
+        10.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        2265,
+        944,
+        1475,
+        1816
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:57:17.537792+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        2265,
+        944,
+        1475,
+        1816
+      ],
+      "duty_percent": [
+        11.325,
+        4.72,
+        7.375,
+        9.08
+      ]
+    },
+    {
+      "id": "5f9939b1f4664d77ad110e4119f5e724",
+      "name": "P7",
+      "xyz": [
+        10.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2266,
+        1292,
+        1213,
+        1816
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T21:59:47.034577+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        2266,
+        1292,
+        1213,
+        1816
+      ],
+      "duty_percent": [
+        11.33,
+        6.46,
+        6.065,
+        9.08
+      ]
+    },
+    {
+      "id": "4751ee3783864d3e89ca884443594037",
+      "name": "P8",
+      "xyz": [
+        10.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2196,
+        1670,
+        984,
+        1770
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:01:46.531777+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        2196,
+        1670,
+        984,
+        1770
+      ],
+      "duty_percent": [
+        10.98,
+        8.35,
+        4.92,
+        8.85
+      ]
+    },
+    {
+      "id": "6523eac8f7b1489d9e8bf037c6a19211",
+      "name": "P9",
+      "xyz": [
+        5.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2136,
+        1860,
+        894,
+        1863
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:03:25.370291+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2136,
+        1860,
+        894,
+        1863
+      ],
+      "duty_percent": [
+        10.68,
+        9.3,
+        4.47,
+        9.315
+      ]
+    },
+    {
+      "id": "b1e5e1fbcfce46ee8b0a6dd2f69d8c5e",
+      "name": "P10",
+      "xyz": [
+        5.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2136,
+        1425,
+        1192,
+        1903
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:05:43.017117+08:00",
+      "all_pwm_us": [
+        1000,
+        1382,
+        2136,
+        1425,
+        1192,
+        1903
+      ],
+      "duty_percent": [
+        10.68,
+        7.125,
+        5.96,
+        9.515
+      ]
+    },
+    {
+      "id": "a49ad4b7d1174286b3a3a6ed611a67b8",
+      "name": "P11",
+      "xyz": [
+        4.0,
+        16.0,
+        0.0
+      ],
+      "pwm_us": [
+        2086,
+        1253,
+        1345,
+        1933
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:08:40.130834+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2086,
+        1253,
+        1345,
+        1933
+      ],
+      "duty_percent": [
+        10.43,
+        6.265,
+        6.725,
+        9.665
+      ]
+    },
+    {
+      "id": "82fba922b6c24e6fbdadba9ced9b00df",
+      "name": "P12",
+      "xyz": [
+        6.0,
+        9.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        891,
+        1682,
+        1990
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:10:29.185964+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        891,
+        1682,
+        1990
+      ],
+      "duty_percent": [
+        10.1,
+        4.455,
+        8.41,
+        9.95
+      ]
+    },
+    {
+      "id": "ad7880b7210e4333be133c2635b8adab",
+      "name": "P13",
+      "xyz": [
+        5.0,
+        5.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        750,
+        1863,
+        2098
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:11:44.740105+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        750,
+        1863,
+        2098
+      ],
+      "duty_percent": [
+        10.1,
+        3.75,
+        9.315,
+        10.49
+      ]
+    },
+    {
+      "id": "1f6d3c450d214befb61fd5c9bed01c4a",
+      "name": "P14",
+      "xyz": [
+        0.0,
+        5.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        931,
+        1676,
+        2206
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:12:48.071648+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        931,
+        1676,
+        2206
+      ],
+      "duty_percent": [
+        10.1,
+        4.655,
+        8.38,
+        11.03
+      ]
+    },
+    {
+      "id": "3d3c618952b94d258838762320a186e9",
+      "name": "P15",
+      "xyz": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1086,
+        1508,
+        2105
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:14:28.957710+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1086,
+        1508,
+        2105
+      ],
+      "duty_percent": [
+        10.1,
+        5.43,
+        7.54,
+        10.525
+      ]
+    },
+    {
+      "id": "6e5bfc7b5e8448b59e87df57efc715c3",
+      "name": "P16",
+      "xyz": [
+        0.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1320,
+        1331,
+        2025
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:15:51.381166+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1320,
+        1331,
+        2025
+      ],
+      "duty_percent": [
+        10.1,
+        6.6,
+        6.655,
+        10.125
+      ]
+    },
+    {
+      "id": "89bc2f1dba104719b291e55f67c455ac",
+      "name": "P17",
+      "xyz": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1590,
+        1151,
+        1976
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:17:40.616221+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1590,
+        1151,
+        1976
+      ],
+      "duty_percent": [
+        10.1,
+        7.95,
+        5.755,
+        9.88
+      ]
+    },
+    {
+      "id": "0ccf679f45074dff840ea37e57efc481",
+      "name": "P18",
+      "xyz": [
+        0.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        2080,
+        791,
+        1947
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:19:25.547408+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        2080,
+        791,
+        1947
+      ],
+      "duty_percent": [
+        10.1,
+        10.4,
+        3.955,
+        9.735
+      ]
+    },
+    {
+      "id": "6c9cd32516064ac5a4d943e13956a2fa",
+      "name": "P19",
+      "xyz": [
+        30.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        2080,
+        791,
+        1369
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:20:29.284800+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        2080,
+        791,
+        1369
+      ],
+      "duty_percent": [
+        10.1,
+        10.4,
+        3.955,
+        6.845
+      ]
+    },
+    {
+      "id": "8dd3095a88bb442aafb1ea429425e19e",
+      "name": "P20",
+      "xyz": [
+        30.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1560,
+        1181,
+        1339
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:21:51.328002+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1560,
+        1181,
+        1339
+      ],
+      "duty_percent": [
+        10.1,
+        7.8,
+        5.905,
+        6.695
+      ]
+    },
+    {
+      "id": "dfdd85352fd44996846a70dc22fd2a5a",
+      "name": "P21",
+      "xyz": [
+        30.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1360,
+        1311,
+        1289
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:23:33.628788+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1360,
+        1311,
+        1289
+      ],
+      "duty_percent": [
+        10.1,
+        6.8,
+        6.555,
+        6.445
+      ]
+    },
+    {
+      "id": "821720218eab4acdb5e4ce61e9057d24",
+      "name": "P22",
+      "xyz": [
+        30.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1100,
+        1501,
+        1199
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:24:50.002589+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1100,
+        1501,
+        1199
+      ],
+      "duty_percent": [
+        10.1,
+        5.5,
+        7.505,
+        5.995
+      ]
+    },
+    {
+      "id": "4113dc4a024540f484460613d8ae32bf",
+      "name": "P23",
+      "xyz": [
+        27.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1000,
+        1591,
+        1279
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:26:12.787721+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1000,
+        1591,
+        1279
+      ],
+      "duty_percent": [
+        10.1,
+        5.0,
+        7.955,
+        6.395
+      ]
+    },
+    {
+      "id": "f66ec58ff2d84ea092b89db59511591d",
+      "name": "P24",
+      "xyz": [
+        25.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1200,
+        1421,
+        1399
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:28:08.155884+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1200,
+        1421,
+        1399
+      ],
+      "duty_percent": [
+        10.1,
+        6.0,
+        7.105,
+        6.995
+      ]
+    },
+    {
+      "id": "99c5f24ecc3045218a6599640b863a64",
+      "name": "P25",
+      "xyz": [
+        25.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1440,
+        1241,
+        1439
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:29:10.644892+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1440,
+        1241,
+        1439
+      ],
+      "duty_percent": [
+        10.1,
+        7.2,
+        6.205,
+        7.195
+      ]
+    },
+    {
+      "id": "249d84f7c4b44a0b83e50f59489812b6",
+      "name": "P26",
+      "xyz": [
+        25.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1890,
+        931,
+        1460
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:30:39.274923+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1890,
+        931,
+        1460
+      ],
+      "duty_percent": [
+        10.1,
+        9.45,
+        4.655,
+        7.3
+      ]
+    },
+    {
+      "id": "979ee7b16b93465a8e2be25bd3fa0a92",
+      "name": "P27",
+      "xyz": [
+        20.0,
+        25.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1700,
+        1061,
+        1570
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:32:02.877122+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1700,
+        1061,
+        1570
+      ],
+      "duty_percent": [
+        10.1,
+        8.5,
+        5.305,
+        7.85
+      ]
+    },
+    {
+      "id": "ac60ec1a66cf4dc3b49721d5b980d223",
+      "name": "P28",
+      "xyz": [
+        20.0,
+        20.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1390,
+        1308,
+        1570
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:34:22.669304+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1390,
+        1308,
+        1570
+      ],
+      "duty_percent": [
+        10.1,
+        6.95,
+        6.54,
+        7.85
+      ]
+    },
+    {
+      "id": "564f2f15a0234253b8f1c5c4ca5414ff",
+      "name": "P29",
+      "xyz": [
+        20.0,
+        15.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1120,
+        1498,
+        1530
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:35:08.217323+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        1120,
+        1498,
+        1530
+      ],
+      "duty_percent": [
+        10.1,
+        5.6,
+        7.49,
+        7.65
+      ]
+    },
+    {
+      "id": "94ace3a2e62b4e14a321503b16e9bd97",
+      "name": "P30",
+      "xyz": [
+        20.0,
+        10.0,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        830,
+        1748,
+        1530
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:35:57.292991+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        2020,
+        830,
+        1748,
+        1530
+      ],
+      "duty_percent": [
+        10.1,
+        4.15,
+        8.74,
+        7.65
+      ]
+    },
+    {
+      "id": "fa5a47aa966743038c6bf599478b5ee7",
+      "name": "P31",
+      "xyz": [
+        27.0,
+        3.0,
+        0.0
+      ],
+      "pwm_us": [
+        1610,
+        700,
+        2198,
+        1539
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:38:11.929171+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1610,
+        700,
+        2198,
+        1539
+      ],
+      "duty_percent": [
+        8.05,
+        3.5,
+        10.99,
+        7.695
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "id": "bb247978f7bb4818a4576e370339836e",
+      "name": "空间P32（实测Z=4cm）",
+      "xyz": [
+        20.0,
+        10.0,
+        4.0
+      ],
+      "pwm_us": [
+        1540,
+        1169,
+        1761,
+        1539
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:40:22.804835+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1540,
+        1169,
+        1761,
+        1539
+      ],
+      "duty_percent": [
+        7.7,
+        5.845,
+        8.805,
+        7.695
+      ],
+      "original_sample_name": "P32",
+      "original_sample_id": "bb247978f7bb4818a4576e370339836e",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "c3d9805e149641538fb031c0c5931885",
+      "name": "空间P33（实测Z=3.5cm）",
+      "xyz": [
+        27.0,
+        19.0,
+        3.5
+      ],
+      "pwm_us": [
+        1540,
+        1897,
+        1191,
+        1409
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:42:23.251939+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1540,
+        1897,
+        1191,
+        1409
+      ],
+      "duty_percent": [
+        7.7,
+        9.485,
+        5.955,
+        7.045
+      ],
+      "original_sample_name": "P33",
+      "original_sample_id": "c3d9805e149641538fb031c0c5931885",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "da63d91ae705450e88439da366e7e2f7",
+      "name": "空间P34（实测Z=7.5cm）",
+      "xyz": [
+        17.5,
+        22.0,
+        7.5
+      ],
+      "pwm_us": [
+        1539,
+        1897,
+        1270,
+        1613
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:44:11.255253+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1897,
+        1270,
+        1613
+      ],
+      "duty_percent": [
+        7.695,
+        9.485,
+        6.35,
+        8.065
+      ],
+      "original_sample_name": "P34",
+      "original_sample_id": "da63d91ae705450e88439da366e7e2f7",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "c1a5e9f4fd3f42d7a745f76a9d099641",
+      "name": "空间P35（实测Z=10cm）",
+      "xyz": [
+        18.0,
+        9.0,
+        10.0
+      ],
+      "pwm_us": [
+        1539,
+        1137,
+        2000,
+        1613
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:45:25.918291+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1137,
+        2000,
+        1613
+      ],
+      "duty_percent": [
+        7.695,
+        5.685,
+        10.0,
+        8.065
+      ],
+      "original_sample_name": "P35",
+      "original_sample_id": "c1a5e9f4fd3f42d7a745f76a9d099641",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "cc84c089849e42ff85466537f12d163d",
+      "name": "空间P36（实测Z=4.5cm）",
+      "xyz": [
+        8.0,
+        20.0,
+        4.5
+      ],
+      "pwm_us": [
+        1539,
+        1882,
+        1221,
+        1868
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:46:33.446966+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1882,
+        1221,
+        1868
+      ],
+      "duty_percent": [
+        7.695,
+        9.41,
+        6.105,
+        9.34
+      ],
+      "original_sample_name": "P36",
+      "original_sample_id": "cc84c089849e42ff85466537f12d163d",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "da5aaf382cf74311acb0c1214dd929ca",
+      "name": "空间P37（实测Z=6cm）",
+      "xyz": [
+        2.0,
+        5.0,
+        6.0
+      ],
+      "pwm_us": [
+        1539,
+        1255,
+        1755,
+        2152
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:48:41.565501+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1255,
+        1755,
+        2152
+      ],
+      "duty_percent": [
+        7.695,
+        6.275,
+        8.775,
+        10.76
+      ],
+      "original_sample_name": "P37",
+      "original_sample_id": "da5aaf382cf74311acb0c1214dd929ca",
+      "role": "measured_spatial_sample_pose_copy"
+    },
+    {
+      "id": "54b17d11a90b4a00a5ed219351f8881b",
+      "name": "空间P38（实测Z=3.5cm）",
+      "xyz": [
+        22.0,
+        22.0,
+        3.5
+      ],
+      "pwm_us": [
+        1539,
+        1966,
+        1143,
+        1529
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:57:14.609153+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1966,
+        1143,
+        1529
+      ],
+      "duty_percent": [
+        7.695,
+        9.83,
+        5.715,
+        7.645
+      ],
+      "original_sample_name": "P38",
+      "original_sample_id": "54b17d11a90b4a00a5ed219351f8881b",
+      "role": "measured_spatial_sample_pose_copy"
+    }
+  ],
+  "validations": [
+    {
+      "id": "0c3dfa6436cf44b0b7cfeef21c51bae1",
+      "xyz": [
+        12.5,
+        12.5,
+        0.0
+      ],
+      "pwm_us": [
+        1956,
+        1043,
+        1556,
+        1754
+      ],
+      "source": "hardware",
+      "passed": false,
+      "actual_xy": [
+        13.0,
+        14.0
+      ],
+      "error_xy": 1.5811388300841898,
+      "notes": "",
+      "captured_at": "2026-10-25T23:23:40.713420+08:00"
+    },
+    {
+      "id": "f32782e84c88461e99bd0531d06c28fc",
+      "xyz": [
+        17.5,
+        17.5,
+        0.0
+      ],
+      "pwm_us": [
+        1932,
+        1305,
+        1382,
+        1611
+      ],
+      "source": "hardware",
+      "passed": true,
+      "actual_xy": [
+        18.0,
+        17.0
+      ],
+      "error_xy": 0.7071067811865476,
+      "notes": "",
+      "captured_at": "2026-10-25T23:24:36.022231+08:00"
+    },
+    {
+      "id": "909cc6f40a4c47efac732627b9dc5fe9",
+      "xyz": [
+        22.5,
+        22.5,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1570,
+        1151,
+        1505
+      ],
+      "source": "hardware",
+      "passed": true,
+      "actual_xy": [
+        22.0,
+        23.0
+      ],
+      "error_xy": 0.7071067811865476,
+      "notes": "",
+      "captured_at": "2026-10-25T23:25:25.006649+08:00"
+    },
+    {
+      "id": "0653859dd24a4651b47090696b432555",
+      "xyz": [
+        7.5,
+        7.5,
+        0.0
+      ],
+      "pwm_us": [
+        2093,
+        754,
+        1780,
+        1957
+      ],
+      "source": "hardware",
+      "passed": true,
+      "actual_xy": [
+        7.5,
+        7.5
+      ],
+      "error_xy": 0.0,
+      "notes": "",
+      "captured_at": "2026-10-25T23:26:12.859380+08:00"
+    },
+    {
+      "id": "32ca5999313c44368320e2a8607a3119",
+      "xyz": [
+        27.5,
+        17.5,
+        0.0
+      ],
+      "pwm_us": [
+        2020,
+        1400,
+        1276,
+        1364
+      ],
+      "source": "hardware",
+      "passed": true,
+      "actual_xy": [
+        28.0,
+        27.5
+      ],
+      "error_xy": 10.012492197250394,
+      "notes": "",
+      "captured_at": "2026-10-25T23:27:05.036811+08:00"
+    }
+  ],
+  "hardware_profile": "six_v3",
+  "planning_notes": {
+    "mechanism_limits_measured": false,
+    "firmware_envelope_us": [
+      1000,
+      2000
+    ],
+    "firmware_rate_ceiling_us_s": 300,
+    "manual_teaching_required": true,
+    "test_envelope_us": [
+      500,
+      3000
+    ],
+    "rate_ceiling_us_s": 2000,
+    "software_profile_updated": "2026-10-25",
+    "selection": {
+      "source_project_id": "f0f1aa28f392485cbe8ca4e3c64b5314",
+      "source_revision": 61,
+
+      "source_snapshot_sha256": "2cf3a59e8c2ac95624bc1fee102e9db86de6c79d1de481e388cb65cc7b7efdca",
+      "source_point_count": 38,
+      "fitted_plane_z": 0,
+      "position_point_count": 31,
+      "copied_spatial_pose_count": 7,
+      "operator_confirmed": "P32～P38是实际测得的夹爪中心高度，采集目的是后续抬起移动。",
+      "note": "原38点工程未改写。副本仅拟合Z=0，空间点原记录另存original_spatial_samples并复制为独立姿态；不据此声称可预测任意高度或自动避障。"
+    }
+  },
+  "position_channels": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "gripper_channel": 0,
+  "fixed_channels": {
+    "1": 1382
+  },
+  "channel_profile": "gripper1_rotation2",
+  "original_spatial_samples": [
+    {
+      "id": "bb247978f7bb4818a4576e370339836e",
+      "name": "P32",
+      "xyz": [
+        20.0,
+        10.0,
+        4.0
+      ],
+      "pwm_us": [
+        1540,
+        1169,
+        1761,
+        1539
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:40:22.804835+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1540,
+        1169,
+        1761,
+        1539
+      ],
+      "duty_percent": [
+        7.7,
+        5.845,
+        8.805,
+        7.695
+      ]
+    },
+    {
+      "id": "c3d9805e149641538fb031c0c5931885",
+      "name": "P33",
+      "xyz": [
+        27.0,
+        19.0,
+        3.5
+      ],
+      "pwm_us": [
+        1540,
+        1897,
+        1191,
+        1409
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:42:23.251939+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1540,
+        1897,
+        1191,
+        1409
+      ],
+      "duty_percent": [
+        7.7,
+        9.485,
+        5.955,
+        7.045
+      ]
+    },
+    {
+      "id": "da63d91ae705450e88439da366e7e2f7",
+      "name": "P34",
+      "xyz": [
+        17.5,
+        22.0,
+        7.5
+      ],
+      "pwm_us": [
+        1539,
+        1897,
+        1270,
+        1613
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:44:11.255253+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1897,
+        1270,
+        1613
+      ],
+      "duty_percent": [
+        7.695,
+        9.485,
+        6.35,
+        8.065
+      ]
+    },
+    {
+      "id": "c1a5e9f4fd3f42d7a745f76a9d099641",
+      "name": "P35",
+      "xyz": [
+        18.0,
+        9.0,
+        10.0
+      ],
+      "pwm_us": [
+        1539,
+        1137,
+        2000,
+        1613
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:45:25.918291+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1137,
+        2000,
+        1613
+      ],
+      "duty_percent": [
+        7.695,
+        5.685,
+        10.0,
+        8.065
+      ]
+    },
+    {
+      "id": "cc84c089849e42ff85466537f12d163d",
+      "name": "P36",
+      "xyz": [
+        8.0,
+        20.0,
+        4.5
+      ],
+      "pwm_us": [
+        1539,
+        1882,
+        1221,
+        1868
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:46:33.446966+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1882,
+        1221,
+        1868
+      ],
+      "duty_percent": [
+        7.695,
+        9.41,
+        6.105,
+        9.34
+      ]
+    },
+    {
+      "id": "da5aaf382cf74311acb0c1214dd929ca",
+      "name": "P37",
+      "xyz": [
+        2.0,
+        5.0,
+        6.0
+      ],
+      "pwm_us": [
+        1539,
+        1255,
+        1755,
+        2152
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:48:41.565501+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1255,
+        1755,
+        2152
+      ],
+      "duty_percent": [
+        7.695,
+        6.275,
+        8.775,
+        10.76
+      ]
+    },
+    {
+      "id": "54b17d11a90b4a00a5ed219351f8881b",
+      "name": "P38",
+      "xyz": [
+        22.0,
+        22.0,
+        3.5
+      ],
+      "pwm_us": [
+        1539,
+        1966,
+        1143,
+        1529
+      ],
+      "period_us": 20000,
+      "source": "hardware",
+      "observed": true,
+      "captured_at": "2026-10-25T22:57:14.609153+08:00",
+      "all_pwm_us": [
+        1600,
+        1382,
+        1539,
+        1966,
+        1143,
+        1529
+      ],
+      "duty_percent": [
+        7.695,
+        9.83,
+        5.715,
+        7.645
+      ]
+    }
+  ]
+}

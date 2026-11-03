@@ -1,0 +1,6 @@
+{
+  "native_pass": true,
+  "when": "2026-10-28T23:18:01+0800",
+  "evidence": "PASS 1667325 checks, real calibrated model, fake PWM only; no serial/hardware access.",
+  "hardware_tested": false
+}

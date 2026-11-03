@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=FPGA Vision Local, OU=Project, O=FPGA Vision, C=CN
+Signer #1 certificate SHA-256 digest: ae4394b0bd6113099faa58559e2f9b851d4009745289af829f7d0464abc5644e
+Signer #1 certificate SHA-1 digest: a11d8868373783a7ee182e2a85815aff344e9ab0
+Signer #1 certificate MD5 digest: 9f5dfafd88154ec20a01802a269385f1
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: e713c34da21b1ca79fb9e768cfa939abe9cd96085703869c31ef84d6fd25abd7
+Signer #1 public key SHA-1 digest: e9f8c92e587e6b1fb5ad434c8c55e9c81e64e688
+Signer #1 public key MD5 digest: 25c1a6859e7fd602b4dd6328093e37b2

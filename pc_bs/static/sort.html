@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>安路视界 · 智能分拣</title>
+<link rel="stylesheet" href="/static/sort.css"><main><header><div><small>ANLOGIC VISION / V3</small><h1>智能分拣工作台</h1></div><a href="/">返回视频控制</a></header>
+<section><div class="flex"><b id="phase">等待开发板</b><span id="fresh" class="pill">未连接视觉数据</span></div><p>本地拨码 <b>1011</b>，或拨码1100后在电脑选择“智能分拣”：抬头扫描人脸 → 保存事件 → 云台回位 → 稳定后识别。类别与像素坐标由 FPGA 输出，抓取由 MCU 决定。</p></section>
+<div class="columns"><section><div id="framePlaceholder" class="placeholder">等待开发板画面</div><img id="preview" hidden alt="FPGA 实时预览"><small>预览由原 FPGA USB 串口提供。前往视频控制页连接。</small></section>
+<section><b>独立串口数据</b><p>额外 USB-TTL 可监听 GPIOA6 的视觉快照；MCU 自身 USB 串口可上传机械臂事件。</p><div class="flex"><select id="port" aria-label="串口"></select><select id="kind" aria-label="数据类型"><option value="vision">FPGA 视觉快照</option><option value="mcu">MCU 事件日志</option></select><button id="connect">连接</button><button id="disconnect">断开</button></div><p id="link">串口未连接</p><p id="feedback" role="status"></p><small>快照序号用于通信检查；目标槽位不是永久物体编号。</small></section></div>
+<section><b>当前视觉目标</b><table><thead><tr><th>槽位</th><th>形状</th><th>数字</th><th>类别</th><th>像素中心</th><th>有效标志</th></tr></thead><tbody id="targets"></tbody></table><p id="summary"></p></section>
+<section><b>操作约定</b><p>类别 1：圆形奇数；类别 2：圆形偶数；类别 3：方形 3 标定候选，不抓取、不告警；类别 4：其他方形，不抓取并记录异常。</p><p><a href="/#events">查看人脸与分拣事件</a> · 机械臂未接入时不会显示虚构的抓取成功数据。</p></section></main><script src="/static/sort.js?v=3.0.2"></script></html>
